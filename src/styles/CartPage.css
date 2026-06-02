@@ -74,7 +74,7 @@
 
 .checkout-btn {
   margin-top: 10px;
-  background-color: rgb(179, 21, 179);
+  background-color: rgb(230, 100, 0);
   color: white;
   padding: 10px 0px;
   font-size: 1rem;
@@ -86,13 +86,13 @@
 }
 
 .checkout-btn:hover {
-  background-color: rgb(234, 0, 255);
+  background-color: rgb(255, 140, 0);
 }
 
 .clear-cart-btn {
   margin-top: 10px;
   background-color: #ccc;
-  color: rgb(179, 21, 179);
+  color: rgb(230, 100, 0);
   padding: 10px 0px;
   font-size: 1rem;
   border: none;

@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import '../styles/SearchPage.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ProductCard from '../components/ProductCard';
 
 const SearchPage = () => {
+  const [searchParams] = useSearchParams();
   const [searchQuery, setSearchQuery] = useState('');
   const [results, setResults] = useState({
     man: [],
@@ -13,12 +15,12 @@ const SearchPage = () => {
   });
 
   useEffect(() => {
-    const query = new URLSearchParams(window.location.search).get('query');
+    const query = searchParams.get('query');
     if (query) {
       setSearchQuery(query);
       performSearch(query);
     }
-  }, []);
+  }, [searchParams]);
 
   const performSearch = (query) => {
     import('../assets/data/products').then(({ default: products }) => {

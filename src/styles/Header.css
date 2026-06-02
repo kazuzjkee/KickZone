@@ -36,7 +36,7 @@
 }
 
 .menu ul li a:hover {
-  color: rgb(179, 21, 179);
+  color: rgb(230, 100, 0);
 }
 
 .actions {
@@ -55,7 +55,7 @@
 }
 
 .actions button:hover, .actions a:hover {
-  color: rgb(179, 21, 179);
+  color: rgb(230, 100, 0);
 }
 
 .search-modal {

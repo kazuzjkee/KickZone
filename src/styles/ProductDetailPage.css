@@ -27,7 +27,7 @@
 }
 
 .slick-dots li button {
-  border-radius: 50%; 
+  border-radius: 50%;
   display: block;
   transition: background-color 0.3s ease;
 }
@@ -63,20 +63,20 @@
 }
 
 .size-btn:hover {
-  background-color: #f0f0f0;
+  background-color: #fff3e0;
 }
 
 .size-btn.active {
-  background-color: rgb(179, 21, 179);
+  background-color: rgb(230, 100, 0);
   color: white;
-  border-color: rgb(179, 21, 179);
+  border-color: rgb(230, 100, 0);
 }
 
 .add-to-cart-btn {
   margin: 20px 0px;
   padding: 12px 20px;
   font-size: 1rem;
-  background-color: rgb(179, 21, 179);
+  background-color: rgb(230, 100, 0);
   color: white;
   border: none;
   border-radius: 4px;
@@ -85,7 +85,7 @@
 }
 
 .add-to-cart-btn:hover {
-  background-color: rgb(234, 0, 255);
+  background-color: rgb(255, 140, 0);
 }
 
 .add-to-cart-btn:disabled {

@@ -32,12 +32,13 @@
 }
 
 .category-title {
-  position: relative;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: white;
-  mix-blend-mode: difference;
-  z-index: 1;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px 30px;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {

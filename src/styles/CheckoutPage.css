@@ -34,7 +34,7 @@
 }
 
 .submit-btn {
-  background-color: rgb(179, 21, 179);
+  background-color: rgb(230, 100, 0);
   color: white;
   border: none;
   padding: 12px 20px;
@@ -47,5 +47,5 @@
 }
 
 .submit-btn:hover {
-  background-color: rgb(234, 0, 255);
+  background-color: rgb(255, 140, 0);
 }

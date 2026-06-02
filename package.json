@@ -1,8 +1,8 @@
 {
-  "name": "runway",
+  "name": "KickZone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kazuzjkee.github.io/RunWay", 
+  "homepage": "https://kazuzjkee.github.io/KickZone", 
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

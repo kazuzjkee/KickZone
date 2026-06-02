@@ -1,26 +1,10 @@
-# RunWay — Интернет-магазин кроссовок
+# KickZone — Интернет-магазин кроссовок
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23f7df1e.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
-🛒 **RunWay** — это простой интернет-магазин кроссовок, созданный с использованием React.  
+🛒 **KickZone** — это простой интернет-магазин кроссовок, созданный с использованием React.  
 Проект позволяет пользователям просматривать товары, добавлять их в корзину, оформлять заказы и получать уведомления через Telegram.
-
----
-
-## 📸 Скриншоты 
-
-### Главная страница
-![Главная страница](/public/screenshots/home.gif)
-
-### Страница товара
-![Страница товара](/public/screenshots/product-detail.gif)
-
-### Корзина
-![Корзина](/public/screenshots/cart.png)
-
-### Оформление заказа
-![Оформление заказа](/public/screenshots/checkout.png)
 
 ---
 
@@ -45,7 +29,7 @@
 | **Слайдер** | `react-slick` |
 | **Телефон** | `react-phone-number-input` |
 | **Telegram-бот** | `fetch()` к API Telegram |
-| **Хостинг** | `GitHub Pages` |
+| **Хостинг** | `Vercel` |
 
 ---
 
@@ -53,8 +37,8 @@
 
 1. **Склонируйте репозиторий:**
 
-    git clone https://github.com/kazuzjkee/RunWay.git 
-    cd RunWay
+    git clone https://github.com/kazuzjkee/KickZone.git 
+    cd KickZone
 
 2. **Установите зависимости:**
 
@@ -87,5 +71,5 @@
 
 Если у вас есть идеи, предложения или вы нашли баг — напишите мне! 
 
-📧 Почта: egorlitwinoff@gmail.com 
-📱 Telegram: @legchezdohnut
+📧 Почта: 
+📱 Telegram: 

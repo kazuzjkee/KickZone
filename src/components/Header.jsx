@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../styles/Header.css';
 import logo from '../assets/logo.PNG';
 
 const Header = () => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
 
   const handleSearch = (e) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      window.location.href = `/search?query=${encodeURIComponent(searchQuery)}`;
+      navigate(`/search?query=${encodeURIComponent(searchQuery)}`);
+      setIsSearchOpen(false);
+      setSearchQuery('');
     }
   };
 
@@ -18,7 +21,7 @@ const Header = () => {
     <header className="header">
       <div className="logo">
         <Link to="/">
-          <img src={logo} alt="RunWay Logo" />
+          <img src={logo} alt="KickZone Logo" />
         </Link>
       </div>
 

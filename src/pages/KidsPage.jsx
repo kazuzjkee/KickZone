@@ -22,7 +22,7 @@ const KidsPage = () => {
 
   // Фильтруем товары по гендеру и бренду
   const filteredProducts = products
-    .filter(p => p.gender === 'kid')
+    .filter(p => p.gender === 'kids')
     .filter(p => selectedBrand === 'all' ? true : detectBrand(p.title) === selectedBrand);
 
   // Сортировка
