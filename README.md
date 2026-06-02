@@ -29,7 +29,6 @@
 | **Слайдер** | `react-slick` |
 | **Телефон** | `react-phone-number-input` |
 | **Telegram-бот** | `fetch()` к API Telegram |
-| **Хостинг** | `Vercel` |
 
 ---
 
